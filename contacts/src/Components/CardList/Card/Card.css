@@ -1,0 +1,39 @@
+img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #0397d7;
+    padding: .8rem;
+    border-radius: 6px;
+    box-shadow: 3px 3px 5px #000000;
+    transition: all 0.4s ease;
+}
+
+.card-container:hover {
+    transform: scale(1.1)
+}
+
+.main-info-container {
+    padding: .6rem 0;
+}
+
+.info-container {
+    color: #070975;
+    display: flex;
+    padding-bottom: .5rem;
+}
+
+.info-left {
+    font-weight: bold;
+    margin-right: .5rem;
+}
+
+.info-right {
+    font-style: italic;
+}

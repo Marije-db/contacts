@@ -1,0 +1,18 @@
+input {
+    font-family: inherit;
+    font-size: 1.2rem;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    padding: 1.3rem 1rem 1.3rem 3.5rem;
+    margin: 35px 20px 0;
+    background-image: url('../../../assets/search-icon.png');
+    background-size: 30px;
+    background-position: left 10px center;
+    background-repeat: no-repeat;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 5px #ffffff;
+}
